@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #768390;
+	margin: 0;
+	padding: 0;
+}
+
+.calculator {
+	width: 400px;
+	background: grey;
+	margin: 30px auto;
+	background: black;
+}
+
+.screen {
+	font-family: fantasy;
+	font-size: 50px;
+	color: white;
+	text-align: right;
+	padding: 20px 5px;
+}
+
+.calc-row {
+	margin-bottom: 5px;
+}
+
+.calc-btn {
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+	padding:  10px 0;
+	width: 24%;
+	font-size: 45px;
+	cursor: pointer;
+}
+
+.calc-btn.double {
+	width: 49.25%;
+}
+
+.calc-btn.triple {
+	width: 74.5%;
+}
+
+.calc-btn:last-child {
+	background: #F38630;
+	color: white;
+}
+
+.calc-btn:last-child:hover {
+	opacity: 0.9;
+}
+
+.calc-btn:last-child:active {
+	background: #FA6900;
+}
