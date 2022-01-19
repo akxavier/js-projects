@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	border: 0;
 	background: #21506A;
+	min-width: 600px;
 }
 
 #container {
@@ -34,19 +35,14 @@ input {
 #enter-btn {
 	border: none;
 	cursor: pointer;
-	position: relative;
 	height: 41px;
 	width: 48px;
-	padding: 5px 15px;
+	padding: 2px 15px;
 	border-radius: 7px;
 	color: #1C6392;
 	font-size: 20px;
 	background-color: #E6DDBC;
 	transition: 0s;
-	/*-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	-ms-transition: all 0.2s ease;
-	-o-transition: all 0.2 ease;*/
 	font-weight: normal;
 }
 
@@ -57,4 +53,49 @@ input {
 
 #enter-btn:active {
 	background-color: #94AAB7;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+li {
+	list-style: none;
+	width: 650px;
+	border: #94AAB7 solid 2px;
+	border-radius: 10px;
+	padding: 3px 10px;
+	margin: 5px;
+	background-color: #B42423;
+	color: white;
+	font-size: 22px;
+	font-family: fantasy;
+	text-align: left;
+	text-transform: capitalize;
+	transition: .2s;
+}
+
+li:hover {
+	background: #E54859;
+}
+
+li > button {
+	background: none;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #E5BA11;
+	float: right;
+	cursor: pointer;
+}
+
+li > button:hover {
+	color: #21506A;
+}
+
+.delete {
+	display: none;
 }
