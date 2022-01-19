@@ -6,8 +6,7 @@ body {
 	margin: 0;
 	border: 0;
 	background: #21506A;
-	min-width: 600px;
-}
+	}
 
 #container {
 	width: 100%;
@@ -25,7 +24,7 @@ body {
 }
 
 input {
-	width: 700px;
+	width: 60%;
 	padding: 5px;
 	font-size: 20px;
 	border: solid #E6DDBC;
@@ -64,7 +63,7 @@ input {
 
 li {
 	list-style: none;
-	width: 650px;
+	width: 50%;
 	border: #94AAB7 solid 2px;
 	border-radius: 10px;
 	padding: 3px 10px;
@@ -76,6 +75,7 @@ li {
 	text-align: left;
 	text-transform: capitalize;
 	transition: .2s;
+	flex-wrap: wrap;
 }
 
 li:hover {
