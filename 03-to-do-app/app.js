@@ -22,6 +22,13 @@ function createListElement() {
 	ul.appendChild(li);
 	input.value = "";
 
+	// MARK DONE WORK
+	li.addEventListener( "click", crossOut );
+
+	function crossOut() {
+		li.classList.toggle("done");
+	}
+
 	function deleteItem() {
 		li.classList.add("delete");
 	}

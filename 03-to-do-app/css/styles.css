@@ -76,6 +76,7 @@ li {
 	text-transform: capitalize;
 	transition: .2s;
 	flex-wrap: wrap;
+	cursor: pointer;
 }
 
 li:hover {
@@ -94,6 +95,15 @@ li > button {
 
 li > button:hover {
 	color: #21506A;
+}
+
+.done {
+	background-color: #4388A7;
+	order: 2;
+}
+
+li.done:hover {
+	background-color: #94AAB7;
 }
 
 .delete {
