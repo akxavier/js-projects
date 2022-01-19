@@ -1,6 +1,6 @@
 # To-Do App
 
-## Sreenshots
+## Screenshots
 
 ![Screenshot1](./img/ss1.png)
 ![Screenshot2](./img/ss2.png)
