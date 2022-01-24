@@ -2,6 +2,11 @@
 
 ## Screenshots
 
-![Screenshot1](./img/ss1.png)
-![Screenshot2](./img/ss2.png)
-![Screenshot3](./img/ss3.png)
+Adding To-Do
+![Screenshot1](./img/1.gif)
+
+Marking To-Do as Done
+![Screenshot2](./img/2.gif)
+
+Deleting To-Do
+![Screenshot3](./img/3.gif)
