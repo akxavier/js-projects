@@ -4,4 +4,4 @@
 2. [Calculator](02-calculator)
 3. [To-Do App](03-to-do-app)
 
-#### [The Modern Javascript Tutorial](./javascript.info) (Tasks)
+#### [Tutorial Tasks](./javascript.info) - [The Modern Javascript Tutorial](https://javascript.info)
